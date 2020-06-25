@@ -1,0 +1,2 @@
+# Silence warning about missing test suite
+testsuite-autopkgtest-missing

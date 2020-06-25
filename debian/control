@@ -1,0 +1,20 @@
+Source: xmm7360-usb
+Section: kernel
+Priority: optional
+Maintainer: Netsecad Packaging <packages@netsecad.com>
+Build-Depends: debhelper (>= 10), dkms
+Standards-Version: 4.3.0
+Homepage: https://github.com/zeridon/xmm7360-usb
+Vcs-Browser: https://github.com/zeridon/xmm7360-usb
+Vcs-Git: https://github.com/zeridon/xmm7360-usb.git
+
+Package: xmm7360-usb
+Architecture: all
+Depends: ${misc:Depends}
+Provides: xmm7360-usb
+Description: Kernel module for flipping an M.2 XMM7360 modem in USB mode
+ Small kernel module that forces XMM7360 M.2 connected LTE modem to be
+ flipped in USB mode
+ .
+ More details: https://github.com/zeridon/xmm7360-usb
+ More details: https://github.com/xmm7360/xmm7360-usb-modeswitch
