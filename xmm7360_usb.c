@@ -49,7 +49,8 @@ static bool pcie_link_set_enabled(struct pci_dev *dev, bool enable) {
     u16 lnk_ctrl;
     bool changed;
 
-    rdev = pci_find_pcie_root_port(dev);
+    //rdev = pci_find_pcie_root_port(dev);
+    rdev = pcie_find_root_port(dev);
     if (!rdev) {
     	pr_err(KERN_ERR "Could not find the PCIe root port for %04x:%04x\n",
                dev->vendor, dev->device);

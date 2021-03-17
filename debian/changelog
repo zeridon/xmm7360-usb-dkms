@@ -1,4 +1,10 @@
-xmm7360-usb (0.0.1-1ubuntu1) UNRELEASED; urgency=medium
+xmm7360-usb (0.0.1-1ubuntu2) focal; urgency=medium
+
+  *  Fixes for new kernels
+
+ -- Vladimir Vitkov <vvitkov@gmail.com>  Wed, 17 Mar 2021 14:15:19 +0200
+
+xmm7360-usb (0.0.1-1ubuntu1) focal; urgency=medium
 
   * Initial Packaging
 
